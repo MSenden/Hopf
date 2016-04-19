@@ -12,8 +12,8 @@ beta = .02 # scaling factor of noise
 
 # coupling
 C = np.zeros((2,2)) # coupling matrix
-C[(0,1)] = 1. # node 1 affects node 2
-C[(1,0)] = 1. # node 2 affects node 1
+C[(0,1)] = 1. # region 1 affects region 2
+C[(1,0)] = 1. # region 2 affects region 1
 
 # timing
 dt = .1 #timestep of 100ms is sufficient since we are simulating BOLD signal
