@@ -5,12 +5,12 @@ import matplotlib.pyplot as plt
 
 # parameters
 f = .05 # intrinsic frequency
-G = .1 #lobal coupling parameter
-a1 = .0 #ifurcation parameter of region 1
-a2 = .0 #bifurcation parameter of region 2
-
+G = .1 # Global coupling parameter
+a1 = .0 # bifurcation parameter of region 1
+a2 = .0 # bifurcation parameter of region 2
 beta = .02 # scaling factor of noise
 
+# coupling
 C = np.zeros((2,2)) # coupling matrix
 C[(0,1)] = 1. # node 1 affects node 2
 C[(1,0)] = 1. # node 2 affects node 1
