@@ -5,13 +5,13 @@ import matplotlib.pyplot as plt
 
 # parameters
 f = .05 # intrinsic frequency
-G = .1 # Global coupling parameter
+G = .1 # coupling strength
 a1 = .0 # bifurcation parameter of region 1
 a2 = .0 # bifurcation parameter of region 2
 beta = .02 # scaling factor of noise
 
 # coupling
-C = np.zeros((2,2)) # coupling matrix
+C = np.zeros((2,2)) # adjacency matrix
 C[(1,0)] = 1. # region 1 affects region 2
 C[(0,1)] = 1. # region 2 affects region 1
 
