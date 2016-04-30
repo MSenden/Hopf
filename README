@@ -1,3 +1,10 @@
-Example code accompanying the manuscript "Cortical Rich Club Regions Can Organize State-Dependent Functional Network Formation by Engaging in Oscillatory Behavior".
+﻿Exemplary Code for Simulating two Interconnected Neural Mass Models Described by the Normal Form of a Supercritical Hopf Bifurcation.
 
-Illustration of interactions among coupled neural populations individually described by the normal form of a supercritical Hopf bifurcation. 
+
+
+List of Parameters:
+
+intrinsic frequency f of both regions (standard value: .05)
+coupling strength G scaling the adjacency matrix connecting the two regions (standard value: 1)
+local bifurcation parameters a1 and a2 for the two regions respectively (standard values: .0, .0)
+scaling factor ß of noise (standard value: .02)
